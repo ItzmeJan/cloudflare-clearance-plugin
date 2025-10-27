@@ -1,0 +1,21 @@
+{
+  "name": "cloudflare-clearance-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "exports": {
+    "import": "./index.js",
+    "require": "./index.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "puppeteer-core": "^24.26.1",
+    "puppeteer-extra-plugin": "^3.2.3"
+  }
+}
