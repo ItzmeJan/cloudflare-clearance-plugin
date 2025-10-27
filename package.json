@@ -1,6 +1,6 @@
 {
   "name": "cloudflare-clearance-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,8 +11,9 @@
     "require": "./index.cjs"
   },
   "keywords": [],
-  "author": "",
+  "author": "itzmejan",
   "license": "ISC",
+  "repository": {"url": "https://github.com/ItzmeJan/cloudflare-clearance-plugin","type": "GitHub"},
   "type": "module",
   "dependencies": {
     "puppeteer-core": "^24.26.1",
