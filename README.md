@@ -1,4 +1,4 @@
-# cloudflare-clearance-plugin
+# cloudflare-clearance-plugin[https://www.npmjs.com/package/cloudflare-clearance-plugin]
 ## cloudflare-clearance-plugin
 
 Adds `browser.getClearance()` to every Puppeteer browser instance. Calling `getClearance()` disconnects Puppeteer from the current browser session and reconnects using `puppeteer-core.connect()`. This effectively resets the automation fingerprint session and can help when Cloudflare/Turnstile starts showing challenges or blocking requests.
